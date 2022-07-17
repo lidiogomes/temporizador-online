@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+:root {
+    --primary-color: #65009D;
+    --primary-color-light: #A406FB;
+    --primary-color-medium-light: #8500CE;
+    --primary-color-medium-darker: #51007E;
+    --primary-color-darker: #3D005E;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--primary-color);
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 500px;
+    min-width: 280px;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.content h1 {
+    color: white;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+#cronometro {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#cronometro span#milisegundos {
+    font-size: 20px;
+    display: inline-block;
+    width: 54px;
+}
+
+/* #cronometro #horas,
+#cronometro #minutos,
+#cronometro #segundos {
+    display: inline-block;
+    width: 66px;
+    line-height: 2px;
+} */
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: var(--primary-color-light);
+    color: #fff;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+button:hover {
+    background-color: var(--primary-color-medium-darker);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
