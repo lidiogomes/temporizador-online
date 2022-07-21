@@ -61,6 +61,7 @@ button {
     padding: 0;
     font-size: 20px;
     margin-bottom: 4px;
+    border-radius: 5px;
 }
 
 button:hover {
@@ -75,10 +76,10 @@ button:hover {
 #historico {
     background-color: var(--primary-color-medium-light);
     color: #fff;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 5px;
     margin: 20px auto 0 auto;
-    width: 280px;
+    width: 310px;
     max-height: 300px;
     overflow: auto;
 }
