@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo IMC</title>
+    <title>Cronômetro Online</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
@@ -14,10 +14,11 @@
         <div class="content">
             <h1>Cronômetro Online</h1>
             <p id="cronometro"><span id="horas">00</span>:<span id="minutos">00</span>:<span id="segundos">00</span>.<span id="milisegundos">000</span></p>            
-            <button id="iniciar">Iniciar</button>
-            <button id="pausar" class="hide">Pausar</button>
-            <button id="capturar">Capturar</button>
-            <button id="resetar">Resetar</button>
+            <button title="Iniciar" id="iniciar">Iniciar</button>
+            <button title="Pausar" id="pausar" class="hide">Pausar</button>
+            <button title="Capturar tempo" id="capturar" class="hide">Capturar</button>
+            <button title="resetar" id="resetar" class="hide">Resetar</button>
+            <div id="historico" class="hide"></div>
         </div>
     </section>
     <script src="./assets/scripts/script.js"></script>

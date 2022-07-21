@@ -31,7 +31,6 @@ body {
     max-width: 500px;
     min-width: 280px;
     text-align: center;
-    /* background-color: green; */
 }
 
 .content h1 {
@@ -53,14 +52,6 @@ body {
     width: 54px;
 }
 
-/* #cronometro #horas,
-#cronometro #minutos,
-#cronometro #segundos {
-    display: inline-block;
-    width: 66px;
-    line-height: 2px;
-} */
-
 button {
     height: 40px;
     width: 100px;
@@ -80,3 +71,35 @@ button:hover {
 .hide {
     display: none;
 }
+
+#historico {
+    background-color: var(--primary-color-medium-light);
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 20px auto 0 auto;
+    width: 280px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+/*********** scrollbar ***********/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--primary-color-medium-darker); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color-darker); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color-light); 
+  }
